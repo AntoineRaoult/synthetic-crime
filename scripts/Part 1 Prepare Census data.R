@@ -11,11 +11,12 @@ rm(list=ls())
 #load dplyr package
 library(dplyr)
 library(here)
+library(haven)
 
 ## Income
 
 # load income data we need to replicate.
-Income_by_OA <- read.csv(here("data", "KS601EWDATA.csv"))
+Income_by_OA <- read.csv(here("data", "KS601EWDATA.CSV"))
 
 # load list of output areas.
 OA <- read.csv(here("data", "SAM_OA_DEC_2011_EW.csv"))
@@ -49,7 +50,7 @@ rm(list=c("Income_by_OA", "income_mean"))
 
 # load educ data we need to replicate. Note that we actually only need the 'mean' level 4 education measure,
 # so many of the other columns are not required.
-Edu_by_OA <- read.csv(here("data", "KS501EWDATA.csv"))
+Edu_by_OA <- read.csv(here("data", "KS501EWDATA.CSV"))
 
 # remove all geographies that are not OAs.
 Edu_by_OA <- Edu_by_OA %>%
@@ -71,7 +72,7 @@ rm(list=c("Edu_by_OA", "educ_mean"))
 ## Ethnicity
 
 # load ethnicity data we need to replicate. Note that we actually only need the white measure
-Ethnic_by_OA <- read.csv(here("data", "KS201EWDATA.csv"))
+Ethnic_by_OA <- read.csv(here("data", "KS201EWDATA.CSV"))
 
 # remove all geographies that are not OAs.
 Ethnic_by_OA <- Ethnic_by_OA %>%
@@ -97,7 +98,7 @@ rm(list=c("Ethnic_by_OA", "ethnic_mean"))
 ## Sex
 
 # load sex data we need to replicate.
-Sex_by_OA <- read.csv(here("data", "KS101EWDATA.csv"))
+Sex_by_OA <- read.csv(here("data", "KS101EWDATA.CSV"))
 
 # remove all geographies that are not OAs.
 Sex_by_OA <- Sex_by_OA %>%
@@ -119,7 +120,7 @@ rm(list=c("Sex_by_OA", "sex_mean"))
 ## Age
 
 # load sex data we need to replicate.
-Age_by_OA <- read.csv(here("data", "QS103EWDATA.csv"))
+Age_by_OA <- read.csv(here("data", "QS103EWDATA.CSV"))
 
 # remove all geographies that are not OAs.
 Age_by_OA <- Age_by_OA %>%
@@ -218,7 +219,7 @@ write.csv(age_mean, here("data", "Age_by_OA_replicate.csv"))
 ## Marital status
 
 # load marital status data we need to replicate.
-Marital_by_OA <- read.csv(here("data", "KS103EWDATA.csv"))
+Marital_by_OA <- read.csv(here("data", "KS103EWDATA.CSV"))
 
 # remove all geographies that are not OAs.
 Marital_by_OA <- Marital_by_OA %>%
@@ -242,7 +243,7 @@ rm(list=c("Marital_by_OA", "marital_mean"))
 ## Born UK
 
 # load country of birth data we need to replicate.
-Country_by_OA <- read.csv(here("data", "KS204EWDATA.csv"))
+Country_by_OA <- read.csv(here("data", "KS204EWDATA.CSV"))
 
 # remove all geographies that are not OAs.
 Country_by_OA <- Country_by_OA %>%
