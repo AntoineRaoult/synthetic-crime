@@ -8,14 +8,14 @@ def run_R_script(start: int, end: int, m: int):
 
     while current_end <= end:
         call(["Rscript", "Part2-modified.R"] + [str(current_start), str(current_end)])
-        os.system(f"curl -X POST http://130.61.29.67:8000/upload -F \"files=@../script2-data/synthetic_population{current_start}_{current_end}.RData\" -u @dm1n:liuytrdcvbnkloiuytrfdcvbnjkiuygtf")
+        #os.system(f"curl -X POST http://130.61.29.67:8000/upload -F \"files=@../script2-data/synthetic_population{current_start}_{current_end}.RData\" -u @dm1n:liuytrdcvbnkloiuytrfdcvbnjkiuygtf")
         print(f"Data sended for the arguments {current_start}, {current_end}")
         current_start = current_end + 1
         current_end = current_end + m 
     
     if current_end > end and current_start < end:
         call(["Rscript", "Part2-modified.R"] + [str(current_start), str(end)])
-        os.system(f"curl -X POST http://130.61.29.67:8000/upload -F \"files=@../script2-data/synthetic_population{current_start}_{current_end}.RData\" -u @dm1n:liuytrdcvbnkloiuytrfdcvbnjkiuygtf")
+        #os.system(f"curl -X POST http://130.61.29.67:8000/upload -F \"files=@../script2-data/synthetic_population{current_start}_{current_end}.RData\" -u @dm1n:liuytrdcvbnkloiuytrfdcvbnjkiuygtf")
 
 
 if __name__ == "__main__":
