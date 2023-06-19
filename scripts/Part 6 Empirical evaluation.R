@@ -15,13 +15,13 @@ library(ggplot2)
 library(ggpubr)
 
 #load synthetic population of crimes
-load(here("data", "synthetic_population_crimes_a.Rdata"))
-load(here("data", "synthetic_population_crimes_b.Rdata"))
-load(here("data", "synthetic_population_crimes_c.Rdata"))
-load(here("data", "synthetic_population_crimes_d.Rdata"))
-load(here("data", "synthetic_population_crimes_e.Rdata"))
-load(here("data", "synthetic_population_crimes_f.Rdata"))
-load(here("data", "synthetic_population_crimes_g.Rdata"))
+load(here("data", "synthetic_population_crimes_a.RData"))
+load(here("data", "synthetic_population_crimes_b.RData"))
+load(here("data", "synthetic_population_crimes_c.RData"))
+load(here("data", "synthetic_population_crimes_d.RData"))
+load(here("data", "synthetic_population_crimes_e.RData"))
+load(here("data", "synthetic_population_crimes_f.RData"))
+load(here("data", "synthetic_population_crimes_g.RData"))
 syn_res_OA <- rbind(syn_res_OA.a, syn_res_OA.b, syn_res_OA.c,
                     syn_res_OA.d, syn_res_OA.e, syn_res_OA.f,
                     syn_res_OA.g)

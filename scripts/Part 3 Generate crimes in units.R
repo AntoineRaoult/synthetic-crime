@@ -20,13 +20,13 @@ library(rsq)
 library(DescTools)
 
 #load synthetic population
-load(here("data", "synthetic_population_a.Rdata"))
-load(here("data", "synthetic_population_b.Rdata"))
-load(here("data", "synthetic_population_c.Rdata"))
-load(here("data", "synthetic_population_d.Rdata"))
-load(here("data", "synthetic_population_e.Rdata"))
-load(here("data", "synthetic_population_f.Rdata"))
-load(here("data", "synthetic_population_g.Rdata"))
+load(here("data", "synthetic_population_a.RData"))
+load(here("data", "synthetic_population_b.RData"))
+load(here("data", "synthetic_population_c.RData"))
+load(here("data", "synthetic_population_d.RData"))
+load(here("data", "synthetic_population_e.RData"))
+load(here("data", "synthetic_population_f.RData"))
+load(here("data", "synthetic_population_g.RData"))
 syn_res_OA <- rbind(syn_res_OA.a, syn_res_OA.b, syn_res_OA.c,
                     syn_res_OA.d, syn_res_OA.e, syn_res_OA.f,
                     syn_res_OA.g)
