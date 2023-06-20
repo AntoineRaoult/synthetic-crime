@@ -15,15 +15,15 @@ library(ggplot2)
 library(ggpubr)
 
 #load synthetic population of crimes
-load(here("data", "HHsynthetic_population_crimes.Rdata"))
+load(here("data", "HHsynthetic_population_crimes.RData"))
 HHsyn_res_OA <- syn_res_OA
-load(here("data", "synthetic_population_crimes_a.Rdata"))
-load(here("data", "synthetic_population_crimes_b.Rdata"))
-load(here("data", "synthetic_population_crimes_c.Rdata"))
-load(here("data", "synthetic_population_crimes_d.Rdata"))
-load(here("data", "synthetic_population_crimes_e.Rdata"))
-load(here("data", "synthetic_population_crimes_f.Rdata"))
-load(here("data", "synthetic_population_crimes_g.Rdata"))
+load(here("data", "synthetic_population_crimes_a.RData"))
+load(here("data", "synthetic_population_crimes_b.RData"))
+load(here("data", "synthetic_population_crimes_c.RData"))
+load(here("data", "synthetic_population_crimes_d.RData"))
+load(here("data", "synthetic_population_crimes_e.RData"))
+load(here("data", "synthetic_population_crimes_f.RData"))
+load(here("data", "synthetic_population_crimes_g.RData"))
 syn_res_OA <- rbind(syn_res_OA.a, syn_res_OA.b, syn_res_OA.c,
                     syn_res_OA.d, syn_res_OA.e, syn_res_OA.f,
                     syn_res_OA.g)
@@ -225,14 +225,14 @@ data_for_boxplot %>%
             SD = sd(ME, na.rm = TRUE))
 
 #save data aggregates
-#write.csv(data_CSP, here("data/synthetic_CSP.csv"))
-#write.csv(data_PFA, here("data/synthetic_PFA.csv"))
-#synthetic_CSP <- read.csv(here("data", "synthetic_CSP.csv"))
-#synthetic_PFA <- read.csv(here("data", "synthetic_PFA.csv"))
+write.csv(data_CSP, here("data/synthetic_CSP.csv"))
+write.csv(data_PFA, here("data/synthetic_PFA.csv"))
+synthetic_CSP <- read.csv(here("data", "synthetic_CSP.csv"))
+synthetic_PFA <- read.csv(here("data", "synthetic_PFA.csv"))
 
 #load CSEW estimates for crim variables at CSP and PFA levels
-latent_scores_LAD <- read.csv("C:/Users/mllxwdb2/Dropbox (The University of Manchester)/Simulation - zero-inflated SAE/Other codes/latent_scores_LAD.csv")
-latent_scores_PFA <- read.csv("C:/Users/mllxwdb2/Dropbox (The University of Manchester)/Simulation - zero-inflated SAE/Other codes/latent_scores_PFA.csv")
+latent_scores_LAD <- read.csv("~/Desktop/latent_scores_LAD.csv")
+latent_scores_PFA <- read.csv("~/Desktop/latent_scores_PFA.csv")
 
 #merge CSEW estimates with synthetic data
 synthetic_CSP <- synthetic_CSP %>%

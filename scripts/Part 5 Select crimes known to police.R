@@ -275,7 +275,7 @@ lookup2 <- read.csv(here("data", "Local_Authority_District_to_Community_Safety_P
 
 #select variables of interest in lookup
 lookup2 <- lookup2 %>%
-  select(1, 3, 5) %>%
+  select(1, 3, 5, 6) %>%
   rename(LAD17CD = 1)
 
 #merge two lookups
