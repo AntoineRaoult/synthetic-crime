@@ -4,4 +4,5 @@
 .Ruserdata
 desktop.ini
 synthetic-crime.Rproj
-*.sav
+.idea/
+data/csew*

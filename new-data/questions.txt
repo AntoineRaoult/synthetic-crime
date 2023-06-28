@@ -1,0 +1,97 @@
+Q01B What is your job title?: Chief Information Officer (CIO)
+Q5Y Would you classify your organisation as ... ?
+Q4 Including yourself, how many [employees/employees, volunteers and trustees] work for your organisation across the UK as a whole?
+Q4/Q5 Which of these best represents the number of [employees/employees, volunteers and trustees] working for your organisation across the UK as a whole?
+Q8 As far as you know, does anyone in your organisation currently use personally-owned devices, such as smartphones, tablets or home computers to carry out regu
+Q13 How much, if anything, was it as a number in pounds?
+Q15 How much, if anything, was it as a percentage of [turnover/income]?
+Q17 How much, if anything, was it as a percentage of overall IT expenditure?
+Q19 And in the financial year just gone, how much was your total IT expenditure?
+Q05D Which one of the following best describes the main area that your charity works in?
+Q7 To what extent, if at all, are online services a core part of the [goods or/charitable] services your organisation provides? Is it ...
+Q09D Since the COVID-19 lockdown in March, has cyber security become a higher priority, a lower priority or has there been no change in its
+Q9_1 How high or low a priority is cyber security to your organisation's [directors/trustees] or senior management?
+Q09_2 How high or low a priority is cyber security to your organisation's [customers or clients/beneficiaries or service users]
+Q09_3 How high or low a priority is cyber security to your organisation's donors?
+Q9C Which of the following best represents your organisation when it comes to outsourcing cyber security?
+Q10A Agree/disagree: The people dealing with cyber security in our organisation have the right cyber security skills and knowledge to do this job effectively
+Q12 In the financial year just gone, approximately how much, if anything, did you invest in cyber security? Would you like to answer?
+Q14S Was it approximately ... ? (small organisations)
+Q14M Was it approximately ... ? (medium organisations)
+Q14L Was it approximately ... ? (large organisations)
+Q16 Was it approximately ... ?
+Q18 Was it approximately ...?
+Q20S Was it approximately ... ? (small organisations)
+Q20M Was it approximately ... ? (medium organisations)
+Q20L Was it approximately ... ? (large organisations)
+Q21 What are the main reasons that your organisation invests in cyber security?: Business continuity/keeping the organisation running
+Q23X Which of the following best describes your situation?
+Q23B Have you ever made any insurance claims for cyber security breaches under this insurance before?
+Q23Y Insurance against lost data: Which of the following, if any, are provided under this insurance policy, as far as you know?
+Q23C As far as you know what are the reasons why your organisation has not taken out a specific cyber security insurance policy?: Advised against it
+Q26 Over the last 12 months, have you or anyone from your organisation done any of the following, or not?: Attended seminars or conferences on cyber security
+Q26B Who in your organisation attended any of the training, seminars or conferences over the last 12 months?: [Directors/trustees] or senior management
+Q11 Approximately how often, if at all, are your organisation's [directors/ trustees/ governors] or senior management given an update on any actions taken aroun
+Q24 In the last 12 months, from where, if anywhere, have you sought information, advice or guidance on the cyber security threats that your organisation faces?: Auditors/accountants
+Q24C And have you heard of or seen the Cyber Aware campaign, or not?
+Q24D Which, if any, of the following have you heard of?: The Cyber Essentials scheme
+Q24E What, if anything, have you changed or implemented at your organisation after seeing or hearing any government campaigns or guidance on cyber security?: Increased spending
+Q29 Which of the following governance or  risk management arrangements, if any, do you have in place?: Board members/ trustees/ a governor  or senior manager with responsibility for cyber security
+Q29A Which of the following standards or accreditations, if any, does your organisation adhere to?: ISO 27001
+Q30A Were any cyber security audits carried out internally by staff, by an external contractor, or both?
+Q31 And which of the following rules or controls, if any, do you have in place?: A policy to apply software security updates within 14 days
+Q32 Which of the following aspects, if any, are covered within your cyber security-related policy, or policies?: What can be stored on removable devices (e.g. USB sticks)
+Q33A When were any of your policies or documentation for cyber security last created, updated, or reviewed to make sure they were up-to-date?
+Q33B In the last 12 months, have you carried out any cyber security training or awareness raising sessions specifically
+Q33D Does your organisation have a formal cyber security strategy, i.e. a document that underpins all your policies and processes?
+Q33E In the last 12 months, has this strategy been reviewed by your organisation's [directors/trustees/governors] or senior management?
+Q33F Has your cyber security strategy been reviewed by any third parties, such IT or cyber security consultants, or external auditors at any point?
+Q33G Was this a review of your cyber security strategy specifically, or a wider review of your organisation's practices?
+Q33H Firstly, did your organisation publish an annual report in the last 12 months?
+Q33I Did your latest annual report cover any cyber security risks faced by your organisation?
+Q29B You said that you do not have any of the governance or risk management arrangements that I mentioned in place. What are the reasons for not having these?: Can't recruit right staff/skills
+Q33 Are cyber security risks for your organisation documented in any of the following, or not?: In Directorate or Departmental risk registers
+Q33C Have you created or adapted any cyber security policies, training, or technical controls specifically in response to COVID-19?
+Q34 Are you aware of the International Standard for Information Security Management (ISO 27001), or not?
+Q35 Has your organisation implemented the International Standard for Information Security Management (ISO 27001), or not?
+Q36 Are you aware of the government's 10 Steps to Cyber Security guidance, or not?
+Q37 And are you aware of the government-backed Cyber Essentials scheme, or not?
+Q38 Has your organisation done any of the following, or not?
+Q44 Do you currently require your suppliers to have or adhere to any cyber security standards or good practice guides, or not?
+Q45 Which of the following, if any, do you require your suppliers to have or adhere to?: A recognised standard such as ISO 27001
+Q46 Does your organisation currently use any externally-hosted web services, to host your website or corporate email accounts, or storing/transferring data?
+Q56 And approximately, how many breaches or attacks have you experienced in total  across the last 12 months?
+Q45B The potential cyber security risks presented by your immediate suppliers: Has your organisation carried out any work to formally review the following?
+Q45D Which of the following have made it difficult for your organisation to manage any cyber security risks from your supply chain or partners: Lack of time or money to dedicate to this
+Q53A Have any of the following happened to your organisation in the last 12 months, or not?: Computers becoming infected with ransomware
+Q54 Approximately, how often in the last 12 months did you experience any of the cyber security breaches or attacks you mentioned?
+Q56A Thinking of all the cyber security breaches or attacks experienced in the last 12 months, which, if any, of the following happened as a result?: Software or systems were corrupted or damaged
+Q57 And have any of these breaches or attacks impacted your organisation in any of the following ways, or not?: Stopped staff from carrying out their day-to-day work
+Q57A Which kinds of breaches or attacks caused what you have just mentioned to happen?: Computers becoming infected with ransomware
+Q65 Thinking about your most disruptive breach or attack, how was this identified?: By accident
+Q66 As far as you know, how long was it, if any time at all, between this breach or attack occurring and it being identified as a breach?
+Q67 As far as you know, what factors contributed to this breach or attack occurring?: Antivirus/other software out-of-date/unreliable/not updated
+Q68 As far as you know, who or what was the source of the breach or attack?: 3rd party supplier(s)
+Q69 As far as you know, was the breach or attack intentional or accidental?
+Q70 Was there a contingency plan in place to deal with this type of breach or attack, or not?
+Q72/Q73 How many days of staff time, if any, were needed to deal with the breach or attack?
+Q75B Approximately how much, if anything, do you think the direct results of this single most disruptive breach or attack have cost your organisation financially? (small organisations)
+Q75D Approximately how much, if anything, do you think the recovery from this single most disruptive breach or attack has cost your organisation financially? (small organisations)
+Q75F Approximately how much, if anything, do you think the long-term effects from this single most disruptive breach or attack will end up costing your organisation financially? (small organisations)
+Q75G Were your organisation's [directors/ trustees/ governors] or senior management made aware of this breach, or not?
+Q63 Do you have any formal cyber security incident management processes, or not?
+Q63A Which of the following, if any, do you have in place, for when you experience a cyber security incident?: Written guidance on who to notify
+Q63B Keep an internal record of incidents
+Q63C In the case of ransomware attacks, does your organisation make it a rule or policy to not pay ransomware payments?
+Q80 We can email you a copy of the findings, as well as a helpcard with links to Government guidance on cyber security.: Yes - copy of the findings
+Q64A What kind of breach was this?: Computers becoming infected with ransomware
+Q71 How long, if any time at all, did it take to restore business operations back to normal after the breach or attack was identified?
+Q76 Was this breach or attack reported to anyone outside your organisation, or not?
+Q77 Who was this breach or attack reported to?: Action Fraud
+Q78 What, if anything, have you done since this breach or attack to prevent or protect your organisation from further breaches like this?: Additional staff training/ communications
+Q78X Before this interview, had you heard that organisations can be fined by the Information Commissioner's Office for cyber security breaches involving persona
+Q78Y Before this interview, had you heard that organisations need to report cyber security breaches involving personal data
+Q78C A new data protection law called the General Data Protection Regulation, or GDPR, came into effect in May 2018.
+Q78D Has your organisation made any changes or not to the way you operate in response to GDPR?
+Q78E Have any of these changes been related to your cyber security policies or processes, or not?
+Q78F What changes have you made related to your cyber security policies or processes?: Additional staff training/communications
