@@ -1,5 +1,6 @@
 library(haven)
 library(here)
+library(EnvStats)
 library(tidyr)
 library(MASS)
 library(rsq)
@@ -40,13 +41,18 @@ syn_data <- mvrnorm(n=nrow(df),
 
 syn_data <- as.data.frame(syn_data)
 
-syn_data$number_employees = 1 + round(200 * qbeta(pnorm(syn_data$number_employees, 
+syn_data$number_employees = 1 + round(qpareto(pnorm(syn_data$number_employees, 
                                                  mean = mean(syn_data$number_employees), 
                                                  sd = sd(syn_data$number_employees)), 
-                                                 shape1=1.1, shape2=2))
+                                                 location=1))
 
-plot_data <- cbind(df %>% select(number_employees) %>% rename(real_employees = number_employees),
-                   syn_data %>% select(number_employees) %>% rename(syn_employees = number_employees))
+syn_data$number_breaches = 1 + round(qexp(pnorm(syn_data$number_breaches, 
+                                            mean = mean(syn_data$number_breaches), 
+                                            sd = sd(syn_data$number_breaches)),
+                                            rate = 1))
+
+plot_data <- cbind(df %>% select(number_employees, number_breaches) %>% rename(real_employees = number_employees, real_breaches = number_breaches),
+                   syn_data %>% select(number_employees, number_breaches) %>% rename(syn_employees = number_employees, syn_breaches = number_breaches))
 
 print(head(plot_data))
 
@@ -55,3 +61,8 @@ plot_data %>%
     geom_histogram(aes(x=real_employees), binwidth = 0.3, fill = "green", color = "green", alpha=0.7) +
     geom_histogram(aes(x=syn_employees), binwidth = 0.3, fill = "red", color = "red", alpha=0.7) +
     scale_x_log10()
+
+plot_data %>%
+    ggplot() +
+    geom_histogram(aes(x=real_breaches), binwidth = 0.3, fill = "green", color = "green", alpha=0.7) +
+    geom_histogram(aes(x=syn_breaches), binwidth = 0.3, fill = "red", color = "red", alpha=0.7)
